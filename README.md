@@ -1,2 +1,3 @@
-# musical-pancake
-presentacion para micro enseñanza
+# Clase 0
+
+Clase de introducción
