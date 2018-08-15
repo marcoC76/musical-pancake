@@ -57,14 +57,14 @@ a {
 }
 #ciencia{
     font-size:3em;
-    background-image: url('/img/ciencia.gif');
+    background-image: url('../img/ciencia.gif');
     background-repeat: no-repeat;
     background-size: 45%;
     background-position: bottom;
 }
 #tecnologia{
     font-size:3em;
-    background-image: url('/img/tecnologia.gif');
+    background-image: url('../img/tecnologia.gif');
     background-repeat: no-repeat;
     background-size: 45%;
     background-position: bottom;
@@ -179,7 +179,7 @@ a {
 
 body {
     min-height: 740px;
-    background-image: url('/img/new-pixel-art-wallpaper-1920x1080-WTG3005506.jpg');
+    background-image: url('../img/new-pixel-art-wallpaper-1920x1080-WTG3005506.jpg');
     background-size: cover;
 }
 
