@@ -56,10 +56,18 @@ a {
     text-shadow: 2px 2px #1b1b1b;
 }
 
-
-
+#surf {
+    background-image: url('../img/surf.gif');
+    background-size: cover;
+}
+#org{
+    background-image: url('../img/dominios.png');
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: bottom;
+}
 .sld{
-    color: #000000; 
+    color: #39c240; 
 }
 
 .press {
