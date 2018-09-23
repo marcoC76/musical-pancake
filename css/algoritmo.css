@@ -34,23 +34,27 @@ p,
 a {
     font-family: 'Encode Sans', sans-serif !important;
     font-size: 25px !important;
-    color:#0104c3;
+    color: white;
 }
 
 .tech {
     font-family: 'Share Tech Mono', monospace !important;
 }
-#algo{
+
+#algo {
     color: #EEE;
-    font-size: 10em; 
+    font-size: 10em;
 }
+
 .sans {
     font-family: 'Encode Sans', sans-serif !important;
 }
 
 .title {
     font-size: 85px;
+    color: white;
     text-shadow: 2px 2px #ff0000;
+    text-align: center;
 }
 
 .subtitle {
@@ -63,14 +67,16 @@ a {
     background-image: url('../img/surf.gif');
     background-size: cover;
 }
-#org{
+
+#org {
     background-image: url('../img/dominios.png');
     background-repeat: no-repeat;
     background-size: 65%;
     background-position: bottom;
 }
-.sld{
-    color: #39c240; 
+
+.sld {
+    color: #39c240;
 }
 
 .press {
@@ -78,9 +84,11 @@ a {
     width: 900px;
     text-align: center;
 }
-strong{
-    color:#000;
+
+strong {
+    color: #000;
 }
+
 a {
     color: #e63904 !important;
     font-weight: 600 !important;
@@ -95,9 +103,9 @@ a {
 body {
     min-height: 740px;
     background-color: #263238;
-    /* background-image: url('../img/164635091-pixel-art-wallpapers.jpg');
-    background-size: cover;
-    background-position: bottom; */
+    background-image: url('../img/7dDt.gif');
+    background-position: bottom;
+    background-size: contain;
 }
 
 /*
@@ -409,6 +417,7 @@ em {
 */
 
 .step {
+    text-align: justify;
     position: relative;
     padding: 40px;
     margin: 20px auto;
@@ -419,6 +428,7 @@ em {
     box-sizing: border-box;
     font-size: 48px;
     line-height: 1.5;
+    font-family: 'Share Tech Mono', monospace !important;
 }
 
 /*
@@ -455,11 +465,11 @@ em {
     width: 900px;
     height: 700px;
     padding: 40px 60px;
-    background-color:#000000;
+    background-color: #000000;
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.548);
-    color:rgb(216, 216, 216);
+    color: rgb(216, 216, 216);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 30px;
