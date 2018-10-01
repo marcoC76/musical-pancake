@@ -55,7 +55,7 @@ a {
     top: 0;
 }
 
-.texto{
+.texto {
     color: #EEEEEE;
     font-size: 1.5em;
 }
@@ -77,9 +77,18 @@ a {
     text-shadow: 2px 2px #1b1b1b;
 }
 
-#surf {
-    background-image: url('../img/surf.gif');
-    background-size: cover;
+#foco {
+    background-image: url('../img/pagina2_foco.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#var {
+    background-image: url('../img/coding.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #org {
@@ -480,13 +489,13 @@ em {
     width: 900px;
     height: 700px;
     padding: 40px 60px;
-   /*  background-color: #000000; */
-   background-image: url('../img/fondo.png');
-   background-position: center;
-   background-size: 135%;
+    /*  background-color: #000000; */
+    background-image: url('../img/fondo.png');
+    background-position: center;
+    background-size: 135%;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 10px;
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.548);
+    box-shadow: 5px 10px 120px rgba(0, 0, 0, 0.548);
     color: rgb(216, 216, 216);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
     font-family: 'Open Sans', Arial, sans-serif;
@@ -496,7 +505,7 @@ em {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    
+
 }
 
 
@@ -505,7 +514,7 @@ em {
     font-size: 50px;
     line-height: 72px;
     margin-top: 100px;
-    
+
 }
 
 .slide q strong {
