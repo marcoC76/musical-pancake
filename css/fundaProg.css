@@ -90,6 +90,36 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
 }
+#const {
+    background-image: url('../img/const.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#datos {
+    background-image: url('../img/tiposDatos.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#funcion {
+    background-image: url('../img/funcion2.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#if {
+    background-image: url('../img/if.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#for {
+    background-image: url('../img/ciclos2.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 #org {
     background-image: url('../img/dominios.png');
