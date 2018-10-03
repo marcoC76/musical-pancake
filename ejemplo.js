@@ -80,10 +80,10 @@ if (pre1 == 1) {
 
 /*--------------------------------------------------- */
 setTimeout(function () {
-    setText("label2", "Piensa un numero del 0 al 7");
+    setText("label2", "Contesta 1 para si y 0 para no");
 }, 2000);
 setTimeout(function () {
-    setText("label2", "Contesta 1 para si y 0 para no");
+    setText("label2", "Piensa un numero del 0 al 7");
 }, 1000);
 
 setTimeout(function () {
@@ -95,22 +95,22 @@ setTimeout(function () {
             if (pre3 == 1) {
                 setTimeout(function () {
                     setText("label2", "TU NOMERO ES 7!!");
-                }, 7000);
+                }, 1000);
             } else {
                 setTimeout(function () {
                     setText("label2", "TU NOMERO ES 6!!");
-                }, 7000);
+                }, 1000);
             }
         } else {
             var pre4 = parseInt(prompt("¿Tu numero es mayor o igual a 5?"));
             if (pre4 == 1) {
                 setTimeout(function () {
                     setText("label2", "TU NOMERO ES 5!!");
-                }, 7000);
+                }, 1000);
             } else {
                 setTimeout(function () {
                     setText("label2", "TU NOMERO ES 4!!");
-                }, 7000);
+                }, 1000);
             }
         }
     } else {
@@ -120,22 +120,22 @@ setTimeout(function () {
             if (pre6 == 1) {
                 setTimeout(function () {
                     setText("label2", "TU NOMERO ES 3!!");
-                }, 7000);
+                }, 1000);
             } else {
                 setTimeout(function () {
                     setText("label2", "TU NOMERO ES 2!!");
-                }, 7000);
+                }, 1000);
             }
         } else {
             var pre7 = parseInt(prompt("¿Tu numero es mayor o igual a 1?"));
             if (pre7 == 1) {
                 setTimeout(function () {
                     setText("label2", "TU NOMERO ES 1!!");
-                }, 7000);
+                }, 1000);
             } else {
                 setTimeout(function () {
                     setText("label2", "TU NOMERO ES 0!!");
-                }, 7000);
+                }, 1000);
             }
         }
     }
