@@ -50,10 +50,16 @@ a {
 #color-bar {
     width: 100%;
     height: 150px;
-    background-color: #0e7235;
+    background-color: #000000;
     position: absolute;
     z-index: -2;
     top: 0;
+}
+.flipH { 
+-moz-transform: scaleX(-1); /* Firefox */
+-o-transform: scaleX(-1); /* Opera */
+-webkit-transform: scaleX(-1); /* Chrome y Safari */
+transform: scaleX(-1); /* w3org */
 }
 
 .texto {
@@ -490,6 +496,9 @@ em {
     align-content: center;
     flex-direction: column;
 
+}
+.dos{
+    background-image: url('../img/fondo3.png');
 }
 
 
