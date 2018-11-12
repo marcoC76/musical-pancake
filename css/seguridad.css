@@ -80,7 +80,7 @@ transform: scaleX(-1); /* w3org */
 }
 
 .subtitle {
-    font-size: 1.5em;
+    font-size: 2em;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px #05720b;
 }
